@@ -4,11 +4,11 @@ https://pymumu.github.io/smartdns/
 ## Usage
 
 ```
-docker create --name=smartdns \
+docker run --name=smartdns \
 -v <path to config>:/config \
 -e TZ=<timezone> \
 -p 53:53 -p 53:53/udp \
-leoyzen/smartdns
+hahah1/smartdns
 ```
 
 ### User / Group Identifiers
